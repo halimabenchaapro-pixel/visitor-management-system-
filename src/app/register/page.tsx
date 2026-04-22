@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { UserCheck, Loader2, AlertTriangle, ChevronRight, CheckCircle } from "lucide-react";
-import Image from "next/image";
 
 interface Host {
   id: string;
@@ -95,9 +94,6 @@ export default function RegisterPage() {
       <div className="w-full max-w-lg">
         {/* Header */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center justify-center mb-3">
-            <Image src="/adaa-logo.png" alt="ADAA Logo" width={120} height={80} className="object-contain" />
-          </div>
           <p className="text-blue-400 text-xs font-medium tracking-widest uppercase mb-1">adaaconsulting.ae</p>
           <h1 className="text-2xl font-bold text-white">Welcome to ADAA Consulting</h1>
           <p className="text-blue-300 text-sm mt-1">We&apos;re glad to have you here. Please fill in your details below to check in.</p>
